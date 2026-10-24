@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>My portfolio site</title>
+</head>
+<body>
+    <header>
+        <h1>Michelle | Learning Wiz</h1>
+        <nav>
+            <ul>
+                <li><a href = "#about">About Me</a></li>
+                <li><a href = "#skills">Skills</a></li>
+                <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#learningjourney">Learning Journey</a></li>
+                <li><a href = "#socials">My Socials</a></li>
+                <li><a href = "#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <!--ABOUT ME SECTION-->
+        <section id = "about">
+            <h2>About Me</h2>
+            <div class = "about-container">
+                <img src = "my_image.jpg" width = "300", height = "300", alt = "my image" class = "myPic">
+                <br>
+
+                <div class = "about-text">
+                    <p>My name is Michelle. I am an aspiring AI/ML Engineer and game developer, currently studying Computer Science at Miva Open University. <br> 
+                        I am currently on my software engineering journey. Alongside learning programming,<br> 
+                        I am also documenting my journey on social media and trying to improve myself.<br> 
+                        My goal is to build innovative technologies that contribute to the tech world and story telling.</p>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+
+        <!--SKILLS SECTION-->
+        <section id = "skills">
+            <h2>My Skills</h2>
+            <ol>
+                <li>Programming (Python, HTML, CSS)</li>
+                <li>Content Creation (Tiktok, YouTube, Instagram, LinkedIn, X)</li>
+                <li>Video Editing (Capcut)</li>
+                <li>Leadership Skills</li>
+            </ol>
+        </section>
+        <hr>
+
+        <!--PROJECT SHOWCASE-->
+        <section id = "projects">
+            <h2>My Projects</h2>
+            <div class = "projects">
+                <img src = "project1.jpeg" width = "300", height = "auto", alt = "project 1" >
+                <img src = "project2.jpeg" width = "300", height = "207", alt = "project 2">
+                <img src = "project3.jpeg" width = "300", height = "207", alt = "project 3">
+                <img src = "project4.png" width = "300", height = "207", alt = "project 4">
+                <img src = "projects 5.jpeg" width = "300", height = "auto", alt = "project 5">
+            </div>
+        </section>
+        <hr>
+
+        <!--MY LEARNING JOURNEY-->
+        <section id = "learningjourney">
+            <h2>My Learning Journey</h2>
+            <div class = "learning-par">
+                <p>I started learning python 7 months ago and all I have to say is "it's been a wild ride".<br> 
+                    I've always wanted to learn programming ever since i was younger, my brother even got me a laptop.<br> 
+                    But, I didn't take it seriously then, and it's sometg I still regret.<br><br> 
+                    But, I've stopped thinking about the past and I'm looking to my future. For the past 7 months, i've been learning python and I've come to know a lot of things.<br> 
+                    I've learnt the fundamentals of python such as variables, conditionals, loops, type-casting, lists, etc.<br> 
+                    Advancing from the basic fundamentals, I moved to more advanced concepts such as Object Oriented Programming (OOP),<br> 
+                    randomization, using external packages like pandas to create projects like a squirrel data sorter. <br><br>
+                    I've also created games such as "Turtle crossing", "Turtle race", "Ping Pong game" etc.<br> 
+                    Eventually, I learnt how to design Graphical User Interface (GUI),<br>
+                    where I learnt to use tkinter to create interfaces and eventually created my first ever GUI Calculator. <br><br> 
+                    Although, I still have a lot to learn, I am proud of myself of how far I've come.<br> And I can't wait to see what's in store for me as I continue my tech, learning and content creation journey</p>
+            </div>
+        </section>
+        <hr>
+
+        <section id = "socials">
+            <h2>My Socials</h2>
+            <div class = "socials">
+                <a href = "https://www.youtube.com/@Michelle.Olaniyi" target = "-blank"> My YouTube </a> <br>
+                <a href = "https://www.tiktok.com/@Michelle.Olaniyi3" target = "-blank"> My Tiktok </a> <br>
+                <a href = "https://www.linkedin.com/@MichelleLaniyi" target = "-blank"> My LinkedIn </a> <br>
+                <a href = "https://www.instagram.com/@MichelleLaniyi" target = "-blank"> My Instagram </a> <br>
+            </div>
+        </section>
+        <hr>
+
+        <section id = "contact-me">
+            <h2>Contact Me</h2>
+            <form id = "contact-form" class = "form-card" action = "">
+
+                <label for = "user-name">Name: </label>
+                <input type = "text" id = "user-name" class = "form-input" name = "name"><br>
+
+                <label for = "email">Email: </label>
+                <input type = "email" id = "email" class = "form-input" name = "email"><br>
+
+                <label for = "message">Message: </label>
+                <textarea id = "message" class = "form-input" rows = "4" name = "message"></textarea><br>
+
+                <button type = "submit" class = "btn-submit" value = "send">Send</button>
+
+            </form>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>Contact me at <a href = "drippy118@gmail.com"> drippy118@gmail.com</a></p>
+    </footer>
+    <script src = "web_javascript.js"></script>
+</body>
+</html>

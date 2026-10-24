@@ -1,0 +1,182 @@
+body{
+    font-family: 'montserrat';
+    margin: 0;
+    padding: 0;
+    background-color:bisque;
+}
+
+header{
+    background-color: #333;
+    color: beige;
+    text-align: center;
+    padding: 20px, 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+header h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    color: burlywood;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:beige
+}
+
+main{
+    margin: 150px auto;
+    max-width: 1200px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+section{
+    background-color: blanchedalmond;
+    margin: 5px;
+    padding: 20px;
+}
+
+#about h2{
+    text-align: center;
+    padding-top: 56px
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;;
+}
+
+.about-text{
+    padding: 30px;
+}
+
+#skills h2{
+    text-align: center;
+    padding-top: 56px
+}
+
+#projects h2{
+    text-align: center;
+    padding-top: 56px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects img{
+    margin-bottom: 30px;
+}
+
+#learningjourney h2{
+    text-align: center;
+    padding-top: 56px;
+}
+
+.learning-par{
+    margin: 20px;
+    display: block;
+}
+
+#socials h2{
+    text-align: center;
+    padding-top: 56px;
+}
+
+.socials{
+    padding: 10px;
+}
+
+.socials a{
+    color: black;
+    text-decoration: none;
+}
+
+.socials a:hover{
+    text-decoration: underline;
+}
+
+#contact-me h2{
+    text-align: center;
+    padding-top: 56px
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    cursor: pointer;
+    font-size: medium;
+    padding: 13px;
+    
+}
+
+button:hover{
+    color: burlywood;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    color: beige;
+    bottom: 0;
+    padding: 20px 0;
+}
+
+footer a{
+    color: burlywood;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: bisque;
+}
+
+@media (max-width: 760px) {
+    .about-container{
+        flex-direction: column;
+    }
+
+    .myPic{
+        max-width: 190;
+        margin: 0 auto;
+    }
+}
